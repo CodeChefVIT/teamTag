@@ -1,0 +1,17 @@
+{
+	"name":"tag",
+	"version":"1.0",
+	"manifest_version":2,
+	"permissions": [
+    "tabs",
+    "activeTab",
+    "webNavigation",
+    "<all_urls>"
+],
+	
+	"background":{
+		"matches":["<all_urls>"],
+		"scripts":["content.js"]
+	}
+	
+}
