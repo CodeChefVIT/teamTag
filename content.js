@@ -11,7 +11,7 @@ xmlhttp.onreadystatechange=function(){
   alert(ans);
 }
 }
-  xmlhttp.open('POST','conn.ipynb',true);
+  xmlhttp.open('POST','/makecalc',true);
   xmlhttp.send();
 
   }
